@@ -1,0 +1,122 @@
+
+    box-sizing: border-box;
+}
+
+body{
+font-family: monospace;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#menu{
+    background-color: white;
+    height: 80px;
+    padding: 0 20px;
+}
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: black;
+    float: left;}
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:black;
+}
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;}
+#anasayfa{
+    background-color: darkgray;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(photos/software_company_background.jpg);
+}
+#icerik{
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;}
+#black{
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;}
+.card{
+    width: 110px;
+    height: 130px;
+    padding: 0;
+    display: inline-block;
+}
+#isilanlari{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: black;
+}
+.container{
+    width:1200px;
+    height: auto;
+    margin: auto;}
+#Hakkimizda{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: darkred;
+}
+#urunler{
+    background-color: darkgray;
+    background-image: url(photos/Weapons-of-Mechs.jpg);
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: darkred;
+}
+.cart{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 0;
+    display: table-header-group;
+    color: darkred;
+}
+.carm{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 0;
+    display: table-footer-group;
+    color: darkred;
+    background-size: cover;
+background-position: center center;
+}
+.carz{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 0;
+    display: inline-block;
+    color: darkred;
+    border-color: aqua;
+}
+

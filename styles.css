@@ -1,0 +1,28 @@
+.title {
+    color: green;
+}
+nav{
+float: right;
+font-size: 20px;
+}
+#logo{
+font-size: 30px;   
+line-height: 80px;
+}
+#anametin{
+background-image: url(ChatGPT%20Image%2012%20Nis%202025%2000_51_34.png);
+height: 800px;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+p{
+font-size: 30px;   
+}
+html{
+background-color: cornsilk
+}
+.a{
+font-size: 20px;
+float: center;
+}
